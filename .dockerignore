@@ -1,0 +1,3 @@
+bin/
+Dockerfile
+compose.yaml

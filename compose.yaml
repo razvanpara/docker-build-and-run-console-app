@@ -1,0 +1,13 @@
+services:
+  app_1:
+    env_file:
+      - ./environment_1.env
+    image: hello-world:1.0
+    build: ./
+    command: ./console-hello-world-docker the values from compose 1
+  app_2:
+    env_file:
+      - ./environment_2.env
+    image: hello-world:1.0
+    build: ./
+    command: ./console-hello-world-docker the values from compose 2
